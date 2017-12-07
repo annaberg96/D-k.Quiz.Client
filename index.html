@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="lib/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <meta charset="UTF-8">
+    <title>DØK EksamensQuiz </title>
+
+    $("#login").on("click", () => {
+
+    window.location.href= "login.html";
+
+    });
+
+    $("#sign_up").on("click", () => {
+    window.location.href= "signup.html";
+    });
+// husk at lave html mappe til denne
+    $("#log_out").("click", () => {
+
+    window.location.href= "logout.html";
+
+    });
+
+
+
+
+
+<footer class="footer">
+    <div class="container">
+        <p class="text-muted">2017 © All rights reserved - DØK.Quiz</p>
+    </div>
+</footer>
+
+<script src="lib/js/jquery-3.2.1.js"></script>
+<script src="lib/js/bootstrap.js"></script>
+<script src="js/sdk.js"></script>
+<script>
+    SDK.User.loadNav();
+</script>
+
+
+</html>
